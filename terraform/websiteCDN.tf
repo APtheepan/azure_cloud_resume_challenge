@@ -1,3 +1,5 @@
+/*
+
 resource "azurerm_cdn_profile" "websiteCDN" {
   name                = "websiteCDN"
   resource_group_name = azurerm_resource_group.rg_website.name
@@ -18,4 +20,4 @@ resource "azurerm_cdn_endpoint" "websiteCDNEndpoint" {
     https_port          = 443 
   }
 }
-
+*/
